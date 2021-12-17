@@ -5,7 +5,12 @@ Get information about host computer
 Run `install.sh` as root.
 
 ## Usage
-Check `example.fl` for an example.
+Check `example.fl` for an example.<br/>
+Functions: 
+* [host/arch](#hostarch)
+* [host/hostname](#hosthostname)
+* [host/kernel](#hostkernel)
+* [host/user](#hostuser)
 
 ### host/arch
 **IN:** None<br/>
