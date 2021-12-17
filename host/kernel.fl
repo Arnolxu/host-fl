@@ -1,0 +1,9 @@
+os_out kernel_ret uname -s
+os_out kernel_temp uname -r
+substr kernel_ret 0 -1
+substr kernel_temp 0 -1
+set kernel_temp1  #
+concat kernel_ret kernel_temp1
+concat kernel_ret kernel_temp
+set kernel_temp #
+set kernel_temp1 #

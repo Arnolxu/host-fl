@@ -1,0 +1,18 @@
+# Call 
+use host/hostname
+use host/arch
+use host/kernel
+use host/user
+
+out Hostname: 
+outv hostname_ret
+out \n
+out User: 
+outv user_ret
+out \n
+out Architecture: 
+outv arch_ret
+out \n
+out Kernel: 
+outv kernel_ret
+out \n

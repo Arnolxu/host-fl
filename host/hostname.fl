@@ -1,0 +1,2 @@
+os_out hostname_ret hostname
+substr hostname_ret 0 -1

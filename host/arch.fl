@@ -1,0 +1,2 @@
+os_out arch_ret uname -m
+substr arch_ret 0 -1
